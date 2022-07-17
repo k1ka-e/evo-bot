@@ -3531,7 +3531,21 @@ object {
 --------------------------------------------------------------*/
 .ot-heading {
   margin-bottom: 15px;
+  align-items: center;
 }
+
+.img__w {
+  margin-right: 1rem;
+}
+
+.button__w {
+  border-radius: 50px;
+  border: 1px all #fff ;
+  color: #fff;
+  padding: 25px 95px;
+}
+
+
 .ot-heading > span {
   font-size: 14px;
   font-weight: 800;
@@ -11688,12 +11702,21 @@ hr.i12 {
   margin-bottom: 8px;
 }
 .heading-13 .main-heading {
-  color: #15171a;
+  color: #000;
   font-family: "Inter", Sans-serif;
-  font-size: 42px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 60px;
 }
+
+.main-title {
+  color: #fff;
+  font-family: "Inter", Sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
 .p-13 {
   color: #15171ab3;
   font-family: "Inter", Sans-serif;
@@ -11789,6 +11812,7 @@ hr.i12 {
   padding: 50px 30px 25px 30px;
   background-color: #fff;
   border-radius: 20px 20px 20px 20px;
+  height: 100%;
 }
 .icon-box-13 .icon-main {
   margin-bottom: 23px;
@@ -11800,7 +11824,7 @@ hr.i12 {
   margin-bottom: 24px;
   color: #15171a;
   font-family: "Inter", Sans-serif;
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 600;
   line-height: 34px;
 }
@@ -11812,6 +11836,12 @@ hr.i12 {
   height: 1px;
   background: #eeeef0;
 }
+
+.icon-box-13:hover .line-box {
+  transition: 1.5s all ease;
+  background: #3f5aff;
+}
+
 .icon-box-13 p {
   color: #15171abf;
   font-family: "Inter", Sans-serif;
@@ -12036,7 +12066,7 @@ hr.i12 {
   background-color: #fd3e25;
 }
 .roadmap-block-13 {
-  background-image: url(/images/home13-bg7.jpg);
+  background-image: url(/images/Colors\ Of\ Sky.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
