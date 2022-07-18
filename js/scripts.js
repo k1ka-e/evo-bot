@@ -1,3 +1,32 @@
+// Модальные окна
+
+var modal = document.getElementById('myModal');
+
+
+var btn = document.getElementById("myBtn");
+
+
+var span = document.getElementsByClassName("close")[0];
+
+
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+
+
 (function( $ ) {
     "use strict";
     
@@ -413,16 +442,16 @@
         navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
         responsive:{
             0:{
-                items:2
+                items:1
             },
             480:{
-                items:3
+                items:1
             },          
             767:{
-                items:4
+                items:1
             },
             1000:{
-                items:6
+                items:1
             }
         }
     });
