@@ -62,4 +62,4 @@ window.onclick = function (event) {
 
 
 // модфльное окно input
-$("#phone_modal").mask("+998 (99) 999-99-99",{autoclear: false});
+// $("#phone_modal").mask("+998 (99) 999-99-99",{autoclear: false});
