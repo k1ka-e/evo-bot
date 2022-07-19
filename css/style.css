@@ -80,6 +80,8 @@ body {
   margin: 0;
 }
 
+
+
 /* Grouping content
 	 ========================================================================== */
 /**
@@ -1896,7 +1898,7 @@ a:active {
     padding: 10px 0px;
   }
   .header_mobile .mlogo_wrapper img {
-    height: 45px;
+    height: 40px;
   }
 
   .header_mobile .mlogo_wrapper .mobile_logo {
@@ -13653,7 +13655,7 @@ hr.i12 {
 }
 @media (min-width: 1200px) {
   .top-img-13 {
-    margin: 20px -50px 0 0;
+    margin: 20px 0 0 0;
   }
   .work-img-13 {
     margin: 0 0 -125px 15px;
@@ -15434,6 +15436,20 @@ section {
   }
 }
 
+@media (max-width: 991px) {
+  .polls {
+    display: block;
+  }
+
+  .polls__mb {
+    margin-bottom: 0 !important;
+  }
+
+  .price__mb {
+    margin-bottom: 0 !important;
+  }
+}
+
 @media (max-width: 757px) {
   .top-img-13 img {
     width: 300px;
@@ -15452,6 +15468,10 @@ section {
 
   .technologies__item {
     width: calc(25% - -37.125rem);
+  }
+
+  .text-note-13 {
+    font-size: 14px;
   }
 }
 
@@ -15629,9 +15649,11 @@ section {
 }
 .call_button:after {
   animation-delay: 0.5s;
+  border: none;
 }
 .call_button i {
   color: #fff;
+  
   transition: 0.3s;
   animation: 1200ms ease 0s normal none 1 running shake;
   animation-iteration-count: infinite;
