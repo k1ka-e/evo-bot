@@ -11618,8 +11618,8 @@ hr.i12 {
   padding-right: 33px;
 }
 .site-header-13 .main-navigation > ul > li {
-  margin-right: 18px;
-  margin-left: 18px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 .site-header-13 .main-navigation ul > li > a {
   padding-top: 23px;
@@ -15492,9 +15492,9 @@ section {
   top: 0;
   width: 100%; /* Full width */
   height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
+  overflow: hidden; /* Enable scroll if needed */
   background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  background-color: rgba(0, 0, 0, 0.5); /* Black w/ opacity */
 }
 
 .modal-content {
@@ -15730,4 +15730,8 @@ section {
 }
 
 
+.modal__btn  {
+  display: flex;
+  justify-content: center;
+}
 
