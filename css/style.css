@@ -80,8 +80,6 @@ body {
   margin: 0;
 }
 
-
-
 /* Grouping content
 	 ========================================================================== */
 /**
@@ -11813,9 +11811,7 @@ hr.i12 {
   margin-bottom: 0;
   line-height: 36px;
 }
-.ot-acc-item__content {
-  display: none;
-}
+
 .ot-acc-item__content {
   color: #15171ab3;
   font-family: "Inter", Sans-serif;
@@ -15348,11 +15344,13 @@ section {
   background: transparent;
   height: 150px;
 }
+
 .form-group__columns {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
 }
+
 .form-group__column {
   position: relative;
 }
@@ -15363,25 +15361,31 @@ section {
   width: 100%;
   height: auto;
 }
+
 .form-group__column.columnstwo:first-child {
   margin-right: 10px;
   flex: 0 1 80%;
 }
+
 .form-group__column.columnstwo:nth-child(2) {
   margin-left: 10px;
   flex: 0 1 20%;
 }
+
 .form-group__column.columnsthree:nth-child(1) {
   margin-right: 10px;
   flex: 0 1 60%;
 }
+
 .form-group__column.columnsthree:nth-child(2) {
   margin-left: 10px;
   margin-right: 10px;
 }
+
 .form-group__column.columnsthree:nth-child(3) {
   margin-left: 10px;
 }
+
 .form-group__column.columnsthree:nth-child(2),
 .form-group__column.columnsthree:nth-child(3) {
   flex: 0 1 20%;
@@ -15397,8 +15401,9 @@ section {
     #3199f9 51%,
     #3151f9 100%
   );
+  border: 1px solid #3199f9;
   border-radius: 10rem;
-  border: none;
+  outline: none;
   font-weight: 800;
   font-size: 18px;
   text-transform: capitalize;
@@ -15407,8 +15412,15 @@ section {
   transition: 0.3s;
   cursor: pointer;
 }
+
 .btn-primary:hover {
   background-position: right center;
+}
+
+.btn-primary:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
 }
 
 @media (max-width: 1100px) {
@@ -15461,7 +15473,7 @@ section {
     display: none;
   }
 
-  .lazy img  {
+  .lazy img {
     width: 40%;
     height: 40%;
   }
@@ -15478,6 +15490,27 @@ section {
 @media (max-width: 450px) {
   .main-title {
     font-size: 15px;
+  }
+
+  .work__header {
+    display: block;
+    text-align: center;
+  }
+  .work__header h1 {
+    font-size: 16px;
+  }
+
+  .work__tem img {
+    width: 20px;
+    height: auto;
+  }
+
+  .work__left p {
+    font-size: 13px;
+  }
+
+  .faq-acc-13 .ot-acc-item__title {
+    font-size: 20px;
   }
 }
 
@@ -15615,7 +15648,7 @@ section {
 .call_button {
   position: fixed;
   right: 13px;
-  bottom: 30px;
+  bottom: 20px;
   transform: translate(-50%, -50%);
   background: #3151f9;
   border: none;
@@ -15636,7 +15669,7 @@ section {
   content: " ";
   display: block;
   position: absolute;
-  border: none;
+  
   border: 1px solid #3151f9;
   left: -20px;
   right: -20px;
@@ -15647,13 +15680,19 @@ section {
   opacity: 0;
   backface-visibility: hidden;
 }
+
+.call_button:focus {
+  border: none;
+  outline:none;
+  box-shadow: none;
+}
+
 .call_button:after {
   animation-delay: 0.5s;
   border: none;
 }
 .call_button i {
   color: #fff;
-  
   transition: 0.3s;
   animation: 1200ms ease 0s normal none 1 running shake;
   animation-iteration-count: infinite;
@@ -15729,9 +15768,7 @@ section {
   }
 }
 
-
-.modal__btn  {
+.modal__btn {
   display: flex;
   justify-content: center;
 }
-
