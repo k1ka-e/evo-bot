@@ -4444,12 +4444,12 @@
   font-style: normal;
   font-weight: 400;
   font-display: auto;
-  src: url(/core/template_evo/fonts/fa-regular-400.eot);
-  src: url(/core/template_evo/fonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),
-    url(/core/template_evo/fonts/fa-regular-400.woff2) format("woff2"),
-    url(/core/template_evo/fonts/fa-regular-400.woff) format("woff"),
-    url(/core/template_evo/fonts/fa-regular-400.ttf) format("truetype"),
-    url(/core/template_evo/fonts/fa-regular-400.svg#fontawesome) format("svg");
+  src: url(/font/fa-regular-400.eot);
+  src: url(/font/fa-regular-400.eot?#iefix) format("embedded-opentype"),
+    url(/font/fa-regular-400.woff2) format("woff2"),
+    url(/font/fa-regular-400.woff) format("woff"),
+    url(/font/fa-regular-400.ttf) format("truetype"),
+    url(/font/fa-regular-400.svg#fontawesome) format("svg");
 }
 .far {
   font-weight: 400;
