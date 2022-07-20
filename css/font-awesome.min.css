@@ -4429,12 +4429,12 @@
   font-style: normal;
   font-weight: normal;
   font-display: auto;
-  src: url(/font/fa-brands-400.eot);
-  src: url(/font/fa-brands-400.eot?#iefix) format("embedded-opentype"),
-    url(/font/fa-brands-400.woff2) format("woff2"),
-    url(/font/fa-brands-400.woff) format("woff"),
-    url(/font/fa-brands-400.ttf) format("truetype"),
-    url(/font/fa-brands-400.svg#fontawesome) format("svg");
+  src: url(/core/template_evo/fonts/fa-brands-400.eot);
+  src: url(/core/template_evo/fonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),
+    url(/core/template_evo/fonts/fa-brands-400.woff2) format("woff2"),
+    url(/core/template_evo/fonts/fa-brands-400.woff) format("woff"),
+    url(/core/template_evo/fonts/fa-brands-400.ttf) format("truetype"),
+    url(/core/template_evo/fonts/fa-brands-400.svg#fontawesome) format("svg");
 }
 .fab {
   font-family: "Font Awesome 5 Brands";
@@ -4444,12 +4444,12 @@
   font-style: normal;
   font-weight: 400;
   font-display: auto;
-  src: url(/font/fa-regular-400.eot);
-  src: url(/font/fa-regular-400.eot?#iefix) format("embedded-opentype"),
-    url(/font/fa-regular-400.woff2) format("woff2"),
-    url(/font/fa-regular-400.woff) format("woff"),
-    url(/font/fa-regular-400.ttf) format("truetype"),
-    url(/font/fa-regular-400.svg#fontawesome) format("svg");
+  src: url(/core/template_evo/fonts/fa-regular-400.eot);
+  src: url(/core/template_evo/fonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),
+    url(/core/template_evo/fonts/fa-regular-400.woff2) format("woff2"),
+    url(/core/template_evo/fonts/fa-regular-400.woff) format("woff"),
+    url(/core/template_evo/fonts/fa-regular-400.ttf) format("truetype"),
+    url(/core/template_evo/fonts/fa-regular-400.svg#fontawesome) format("svg");
 }
 .far {
   font-weight: 400;

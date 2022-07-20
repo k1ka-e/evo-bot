@@ -15297,6 +15297,7 @@ section {
 @media (max-width: 787px) {
   .work__left {
     width: 100%;
+    margin-left: 0;
   }
 
   .work__content {
@@ -15480,7 +15481,7 @@ section {
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .contact__content {
     display: block;
   }
@@ -15506,15 +15507,27 @@ section {
   .price__mb {
     margin-bottom: 0 !important;
   }
+
+  .faq-acc-13 .ot-acc-item__title {
+    font-size: 20px;
+  }
+
+  .modal__content {
+    width: 50%;
+  }
 }
 
 @media (max-width: 757px) {
   .top-img-13 img {
-    width: 300px;
+    width: 250px;
+  }
+
+  .modal__content {
+    width: 50%;
   }
 }
 
-@media (max-width: 550px) {
+@media  (max-width: 575px) {
   .top-img-13 img {
     display: none;
   }
@@ -15522,6 +15535,49 @@ section {
   .lazy img {
     width: 40%;
     height: 40%;
+  }
+
+  .contact__content h2{
+    font-size: 20px;
+  }
+
+  .btn-primary {
+    padding: 7px 30px;
+  }
+
+  .ot-acc-item__title {
+    font-size: 20px;
+  }
+
+  .modal__content {
+    width: 60%;
+  }
+
+  .faq-acc-13 .ot-acc-item__content {
+    font-size: 16px;
+  }
+
+  .top-13 h2 {
+    font-size: 35px;
+    line-height: 1.2;
+  }
+
+  .top-13 p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .heading-13 .main-heading {
+    font-size: 25px;
+    line-height: 1.4;
+  }
+
+  .p-13  {
+    font-size: 16px;
+  }
+
+  .btn-main-13 {
+    padding: 15px;
   }
 
   .technologies__item {
@@ -15536,6 +15592,10 @@ section {
 @media (max-width: 450px) {
   .main-title {
     font-size: 15px;
+  }
+
+  .modal__content {
+    width: 60%;
   }
 
   .work__header {
@@ -15555,19 +15615,57 @@ section {
     font-size: 13px;
   }
 
+  .top-13 h2 {
+    font-size: 25px;
+    line-height: 1.2;
+  }
+
+  .top-13 p {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .p-13  {
+    font-size: 13px;
+  }
+
   .faq-acc-13 .ot-acc-item__title {
     font-size: 20px;
   }
+
+  .form-group textarea, .form-group input, .form-group select {
+    margin-bottom: 20px;
+    line-height: 1.1;
+  }
+}
+
+@media (max-width: 390px) {
+  .main-title {
+    font-size: 13px;
+    line-height: 1.3;
+  }
+
+  .faq-acc-13 .ot-acc-item__content {
+    font-size: 13px;
+    line-height: 1.4;
+  }
+
+  .modal__content {
+    width: 80%;
+  }
+
+  
 }
 
 /* Модальные окна */
 
-.modal {
+.modal__contact {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 3; /* Sit on top */
   padding-top: 100px; /* Location of the box */
   left: 0;
+  width: 50%;
   top: 0;
   width: 100%; /* Full width */
   height: 100%; /* Full height */
@@ -15576,13 +15674,12 @@ section {
   background-color: rgba(0, 0, 0, 0.5); /* Black w/ opacity */
 }
 
-.modal-content {
+.modal__content {
   position: relative;
-  background-color: #e1bee7;
   margin: auto;
   padding: 0;
   border: 5px solid #fff;
-  width: 30%;
+  width: 50%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.4s;
@@ -15817,3 +15914,4 @@ section {
   display: flex;
   justify-content: center;
 }
+
