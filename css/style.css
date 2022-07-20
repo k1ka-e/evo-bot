@@ -71,6 +71,47 @@ html {
   /* border: 3px solid #fffefe; */
 }
 
+/* select  */
+
+.form-control:hover,
+.form-control:focus {
+  background: transparent;
+  color: #000;
+  border: 1px solid #000;
+}
+
+
+.form-control {
+  position: relative;
+  display: block;
+  padding: 5px 10px;
+  cursor: pointer;
+  /* z-index: 2; */
+  border: 1px solid #000;
+  background: transparent;
+  border-radius: 30px;
+
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 128.5%;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.logo-col {
+  gap: 2rem;
+}
+
+.lang {
+  align-items: center;
+  display: inline-flex;
+  vertical-align: middle;
+  justify-content: center;
+}
+/* ///////////////////////////////////////// */
+
 /* Sections
 	 ========================================================================== */
 /**
@@ -1896,7 +1937,7 @@ a:active {
     padding: 10px 0px;
   }
   .header_mobile .mlogo_wrapper img {
-    height: 40px;
+    height: 30px;
   }
 
   .header_mobile .mlogo_wrapper .mobile_logo {
@@ -12465,7 +12506,7 @@ hr.i12 {
   margin-bottom: 0;
 }
 .footer-13 {
-  background-color: #3f5aff;
+  background: #fff; 
 }
 .ft-logo-13 img {
   width: 180px;
@@ -12475,22 +12516,26 @@ hr.i12 {
   text-align: center;
   background-color: #f6f8fa1a;
   -webkit-border-radius: 10%;
+  border: 1px solid #3f5aff;
   border-radius: 10%;
   font-weight: 400;
   height: 48px;
   width: 48px;
   line-height: 56px;
-  color: #fff;
+  color: #3f5aff;
 }
 .ft-social-13 li a i {
   font-size: 20px;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
 }
 .ft-social-13 li a:hover {
-  background-color: #fff;
-  color: #23599d;
+  background-color: #3f5aff;
+  color: #fff;
 }
 .footer-widget-13 h5 {
-  color: #fff;
+  color: #000;
   font-family: "Inter", Sans-serif;
   font-weight: 600;
   margin-bottom: 18px;
@@ -12524,7 +12569,7 @@ hr.i12 {
   border-radius: 6px;
 }
 .footer-widget-13 h6 {
-  color: #fff;
+  color: #15171a;
   font-family: "Inter", Sans-serif;
   font-size: 16px;
   font-weight: 600;
@@ -12539,13 +12584,13 @@ hr.i12 {
   font-family: "Inter", Sans-serif;
   line-height: 20px;
   font-size: 16px;
-  color: #bac2ff;
+  color: #54595f;
 }
 .footer-list-13 a:hover {
-  color: #fff;
+  color: #000;
 }
 .copyright-text-13 {
-  color: #fff9;
+  color: #000;
   font-family: "Inter", Sans-serif;
   font-size: 13px;
   font-weight: 300;
@@ -14565,7 +14610,8 @@ section {
   width: 100%;
 }
 .space-2 {
-  height: 2px;
+  background: #1f1f1f;
+  height: 1px;
   width: 100%;
 }
 .space-3 {
@@ -15658,7 +15704,6 @@ section {
   color: #fff;
   text-align: center;
   line-height: 55px;
-  font-size: 30px;
   z-index: 9999;
 }
 .call_button a {
